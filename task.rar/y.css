@@ -1,0 +1,13 @@
+.clip {
+    width: 100px; /* عرض المستطيل */
+    height: 100px; /* ارتفاع المستطيل */
+    background-color: red; /* لون الخلفية */
+    border-radius: 100px 0 0 0; /* شكل الحواف */
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 100%); /* تحديد المنطقة المطلوبة للعرض */
+   } 
+   .circle {
+    width: 200px; /* عرض العنصر */
+    height: 200px; /* ارتفاع العنصر */
+    background-color: red; /* لون الخلفية */
+    border-radius: 50%; /* شكل الحواف */
+    /* clip-path: inset(10% 0 0 0) تحديد المنطقة المطلوبة للعرض */;
